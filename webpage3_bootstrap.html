@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Details</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+</head>
+<body class="bg-light">
+	<div class="container">
+		<div class="text-center mt-5">
+			<img src="/home/mratyunjay/Downloads/bootstraplogo.jpg"alt=logo width="90" height="90"">
+			<h1 class="mt-4">Checkout form</h1>
+			<p class="text-muted lead">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
+		</div>
+	</div>
+	<div class="container mb-5">
+		<div class="row">
+			<div class="col-md-8 col-8">
+				<h4>Billing address</h4>
+				<div class="row">
+					<div class="col-md-6 col-6">
+						<label>First Name</label><br>
+						<input type="text" class="form-control" name="">				
+					</div> 
+					<div class="col-md-6 col-6">
+						<label>Last Name</label><br>
+						<input type="text"  class="form-control"  name="">	
+					</div>
+				</div>
+				<br>
+				<div>
+					<label>User Name</label>
+					<div class="input-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text">@</span>
+
+						</div>
+						<input type="text" name="" class="form-control" placeholder="User Name">
+					</div>
+				</div>
+				<br>
+				<div>
+					<label>Email <span class="text-muted">(optional)</span></label>
+					<div class="input-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text">@</span>
+
+						</div>
+						<input type="text" name="" class="form-control" placeholder="you@example.com">
+					</div>
+				</div>
+				<br>
+				<div>
+					<label>Address</label><br>
+					<input type="text" class="form-control" name="" placeholder="1234 main street">
+				</div>
+				<br>
+				<div>
+					<label>Address2 <span class="text-muted">(optional)</span></label><br>
+					<input type="text" class="form-control" name="" placeholder="apartment or suite">
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-md-5 col-5">
+						<label>Country</label><br>
+						<select class="form-control custom-select">
+							<option disabled selected hidden>
+								Country
+							</option> 
+							<option>India</option>
+						</select>
+						
+					</div>
+					<div class="col-md-4 col-4">
+						<label>State</label><br>
+						<select class="form-control custom-select">
+							<option disabled selected hidden>
+								State
+							</option> 
+
+							<option>Madhya Pradesh</option>
+						</select>
+						
+					</div>
+					<div class="col-md-3 col-3">
+						<label>Zip</label><br>
+						<input type="text" name="" class="form-control">
+					</div>										
+				</div>
+				<hr>
+				<label class="checkbox-inline">
+					<input type="checkbox"> Shipping address is same as my billing address
+				</label>
+				<br>
+				<label class="checkbox-inline">
+					<input type="checkbox"> Save this information for next time.
+				</label>
+				<hr>
+				<h3>Payment</h3>
+				<div class="radio">
+					<label><input type="radio" name=""> Credit</label>
+				</div>	
+				<div class="radio">
+					<label><input type="radio" name=""> Debit</label>
+				</div>
+				<div class="radio">
+					<label><input type="radio" name=""> Paypal</label>
+				</div>
+				<div class="row">
+					<div class="col-md-6 col-6">
+						<label>Name on card</label>
+						<input type="text" class="form-control">
+						
+					</div>
+					<div class="col-md-6 col-6">
+						<label>Credit card number</label>
+						<input type="text" class="form-control">
+						
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-md-3 col-3">
+						<label>Expiration</label>
+						<input type="text" class="form-control">	
+					</div>
+					<div class="col-md-3 col-3">
+						<label>Credit card number</label>
+						<input type="text" class="form-control">
+					</div>				
+				</div>
+				<hr>
+				<a href="#" class="btn btn-primary bg-primary btn-outline-primary btn-lg text-white btn-block">Continue to checkout</a>
+				<br><br>
+				<h6 class="text-muted float-right">© 2017-2019 Company Name</h6>
+				<br><br>
+				<h6 class="float-right"><a href="#">Privacy</a>   <a href="#">Term</a>   <a href="#">Support</a></h6>
+			</div>
+			<div class="col-md-4 col-4">
+				<h4 class="justify-content-between d-flex align-item-center">
+					<span class="text-muted">Your cart</span>
+					<span class="badge badge-secondary badge-pill">3</span>
+				</h4>
+				<ul class="list-group">
+					<li class="d-flex list-group-item lh-condensed justify-content-between">
+						<div>
+							<h6 class="my-0">Product name</h6>
+							<small>Brief description</small>
+						</div>
+						<span class="text-muted">$12</span>
+					</li>
+					<li class="d-flex list-group-item lh-condensed justify-content-between">
+						<div>
+							<h6 class="my-0">Secondary product</h6>
+							<small>Brief description</small>
+						</div>
+						<span class="text-muted">$12</span>
+					</li>
+					<li class="d-flex list-group-item lh-condensed justify-content-between">
+						<div>
+							<h6 class="my-0">Third item</h6>
+							<small>Brief description</small>
+						</div>
+						<span class="text-muted">$12</span>
+					</li>
+					<li class="d-flex list-group-item lh-condensed justify-content-between bg-light">
+						<div class="text-success" >
+							<h6 class="my-0 ">Promocode</h6>
+							<small>EXAMPLECODE</small>
+						</div>
+						<span class="text-success">-$5</span>
+					</li>
+					<li class="d-flex list-group-item lh-condensed justify-content-between">
+						<div>
+							<h6 class="my-0">Total(USD)</h6>
+						</div>
+						<span>$20</span>
+					</li>			
+				</ul>
+				<br>
+				<form >
+					<div class="card">
+						<div class="card-body">
+							<div class="input-group">
+								<input type="text" placeholder="Promo code" class="form-control" >
+								<div class="input-group-append">
+									<button class="btn btn-secondary">redeem</button>							
+								</div>						
+							</div>
+						</div>
+					</div>					
+				</form>
+			</div>
+		</div>	
+	</div>	
+	
+
+
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

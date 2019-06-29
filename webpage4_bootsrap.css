@@ -1,0 +1,61 @@
+.white_hover:hover{
+	color: white !important;
+
+}
+.bx1{
+	position: absolute;
+	width: 320px;
+	height:520px;
+	border-radius: 21px;
+	transform: rotate(30deg);
+	background-color: #333;
+	right:10%;
+	bottom: -30%;
+	margin-top: -10px;
+}
+.overflow-hidden{
+	overflow: hidden;
+}
+.bx11{
+	position: absolute;
+	width: 287px;
+	height:420px;
+	transform: rotate(0deg);
+	background-color:rgba(255,255,255,.1);
+	bottom:8%;
+	right:5%;	
+}
+.custom{
+	height: 500px;
+	width: 100%;
+}
+.bx2{position: absolute;
+	width: 320px;
+	height:520px;
+	border-radius: 21px;
+	transform: rotate(30deg);
+	background-color: #e5e5e5;
+	right:70%;
+	top:-25%;
+}
+.hw{
+	height: 500px; 
+}
+.bx3{
+	position: absolute;
+	width: 380px;
+	height:420px;
+	border-radius: 21px;
+	background-color:white;
+	bottom:-20%;
+	right:22%;
+}
+.bx4{
+	position: absolute;
+	width: 380px;
+	height:420px;
+	border-radius: 21px;
+	background-color:grey;
+	bottom:-20%;
+	right:22%;
+}

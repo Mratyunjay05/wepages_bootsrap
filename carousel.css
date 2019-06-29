@@ -1,0 +1,63 @@
+.nav-link.disabled{
+	pointer-events: none;
+	cursor: default;
+}
+.navbar-brand{
+    font-size: 1.25rem; 
+}
+.hover:hover{
+	color: white !important;
+}
+.marg{
+	margin-left: 700px;
+	border-radius: 8px;
+}
+.hw{
+	height:580px;
+	width: 100% !important;
+}
+.img1{
+	background-size: cover;
+	background-image: url(/home/mratyunjay/Downloads/1.jpg);
+	height:580px;
+}
+.mv{
+	padding-top:250px;
+	text-align: center;
+	text-shadow:2px 2px black;
+}
+.pt{
+	text-align: center;
+	text-shadow: 2px 2px black;
+}
+.img2{
+	background-size: cover;
+	background-image: url(/home/mratyunjay/Downloads/2.jpg);
+		height:580px;
+}
+.img3{
+	background-size: cover;
+	background-image: url(/home/mratyunjay/Downloads/3.jpg);
+		height:580px;
+}
+.btp{
+	margin-left: 580px;
+}
+.circle{
+	height: 150px;
+	width: 150px;
+	background-color: grey;
+	border-radius:100px;
+
+}
+.bx1{
+	height: 450px;
+	width: 450px;
+	background-color: lightgrey;
+}
+.hp{
+	padding-top: 200px;
+}
+.aml{
+	float: right;
+}

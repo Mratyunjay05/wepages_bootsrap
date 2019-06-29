@@ -1,0 +1,11 @@
+.H1{
+	height:560px !important;
+}
+.mat{
+	margin-top: 220px;
+}
+.navbar-item .active{
+	color: #fff;
+	border-bottom: 5px solid #fff;
+	padding: 5px;
+}
